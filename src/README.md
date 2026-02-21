@@ -1,72 +1,149 @@
-# Banking System - SOLID Principles + Repository Pattern (Java)
+# 🏦 Mini Bank System — Proyecto Colaborativo Java
 
-Mini proyecto en Java que simula un sistema bancario con transferencia
-entre cuentas y notificación utilizando:
+Bienvenido 👋
 
-- Programación Orientada a Objetos
-- Principios SOLID
-- Patrón Repository
-- Inyección de Dependencias
-- Interfaces
-- Fundamentos de Arquitectura Limpia
+Este repositorio es un **proyecto educativo y colaborativo** creado para aprender desarrollo backend en Java mientras construimos un sistema paso a paso.
 
-## Funcionalidades
-
-- Crear cuentas bancarias
-- Transferir dinero entre cuentas
-- Validación de saldo insuficiente
-- Implementación de repositorio en memoria
-- Enviar notificación (Email y optional SMS)
-- Arquitectura desacoplada
-
-
-## Arquitectura del Proyecto
-
-El proyecto sigue una estructura por capas:
-
-mybank
-- \account (Capa de Dominio)
-- \notification (Abstracciones)
-- \infrastructure (Implementaciones técnicas)
-- \Main (Punto de entrada de la aplicación)
-
-## Conceptos aplicados
-
-### Dominio
-Contiene la lógica de negocio pura (`Account`).
-
-### Aplicación
-`AccountService` orquesta las operaciones entre dominio e infraestructura.
-
-### Infraestructura
-Implementación concreta del repositorio (`InMemoryAccountRepository`).
+⚠️ **Este NO es un sistema bancario real.**
+El objetivo principal es **aprender Programación Orientada a Objetos, Interfaces y buenas prácticas** trabajando en equipo.
 
 ---
 
-## Principios SOLID Aplicados
+## 🎯 Objetivo del Proyecto
 
-### Single Responsibility Principle (SRP)
-Cada clase tiene una única responsabilidad:
-- `Account` → Lógica de negocio
-- `AccountService` → Coordinación de operaciones
-- `InMemoryAccountRepository` → Persistencia en memoria
+Construir un pequeño sistema bancario mientras aprendemos cómo se organizan proyectos reales en Java.
+
+**Contribuir:** 
+* 🗺️ [ROADMAP del Proyecto](ROADMAP.md)
+* 🤝 [Guía de Contribución](CONTRIBUTING.md)
+
+Durante el desarrollo practicamos:
+
+✅ Programación Orientada a Objetos (POO)
+
+✅ Interfaces
+
+✅ Principios SOLID
+
+✅ Repository Pattern
+
+✅ Separación de responsabilidades
+
+✅ Código limpio
+
+✅ Trabajo colaborativo con GitHub
 
 ---
 
-### Open/Closed Principle (OCP)
-El sistema puede extenderse sin modificar código existente.
+## 👨‍🎓 ¿Para quién es este proyecto?
 
-Ejemplo:
-- Se puede agregar `SmsNotification`
-- Se puede agregar `DatabaseAccountRepository`
+Este proyecto está pensado especialmente para:
 
-Sin cambiar la lógica principal.
+* Personas que están aprendiendo Java
+* Estudiantes que comienzan con POO
+* Personas aprendiendo Interfaces
+* Desarrolladores junior
+* Estudiantes que quieren practicar GitHub
+* Personas que desean prepararse para Spring Boot
+
+No necesitas experiencia avanzada 👍
 
 ---
 
-### Dependency Inversion Principle (DIP)
-Los módulos de alto nivel dependen de abstracciones, no de implementaciones concretas:
+## 🧠 Funcionalidades actuales
 
-```java
-AccountRepository repository = new InMemoryAccountRepository();
-NotificationService notification = new EmailNotification();
+Actualmente el sistema permite:
+
+* Crear cuentas bancarias
+* Depositar dinero
+* Retirar dinero
+* Transferir dinero entre cuentas
+* Manejo de saldo
+* Uso de Interfaces
+* Implementación básica del Repository Pattern
+* Separación por capas
+
+---
+
+## 🏗️ Estructura del Proyecto
+
+```
+src/
+└── com/mybank
+    ├── account
+    │   ├── Account.java
+    │   ├── AccountService.java
+    │   └── AccountRepository.java
+    │
+    ├── infrastructure
+    │   └── InMemoryAccountRepository.java
+    │
+    ├── notification
+    │   ├── NotificationService.java
+    │   └── EmailNotification.java
+    │
+    └── Main.java
+```
+
+---
+
+## 🧩 Capas del sistema
+
+* **Domain** → reglas del negocio
+* **Service** → lógica del sistema
+* **Repository** → acceso a datos
+* **Infrastructure** → implementaciones técnicas
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+### 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/Marlon4789/banking-system-solid-java.git
+cd banking-system-solid-java
+```
+
+---
+
+### 2️⃣ Compilar
+
+```bash
+javac com/mybank/**/*.java
+```
+
+---
+
+### 3️⃣ Ejecutar
+
+```bash
+java com.mybank.Main
+```
+
+---
+
+## 📌 Filosofía del Proyecto
+
+Este repositorio es un espacio seguro para:
+
+✅ aprender
+
+✅ experimentar
+
+✅ mejorar habilidades
+
+✅ colaborar con otros desarrolladores
+
+---
+
+## ⭐ Mensaje final
+
+Si estás aprendiendo Java…
+
+Este proyecto es para ti.
+
+No importa tu nivel.
+Todos estamos aprendiendo juntos.
+
+**Aprendemos construyendo software real.**
