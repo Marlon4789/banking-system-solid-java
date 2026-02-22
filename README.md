@@ -1,6 +1,6 @@
 # 🏦 Mini Bank System — Proyecto Colaborativo Java
 
-Bienvenido 👋
+## Bienvenido 👋
 
 Este repositorio es un **proyecto educativo y colaborativo** creado para aprender desarrollo backend en Java mientras construimos un sistema paso a paso.
 

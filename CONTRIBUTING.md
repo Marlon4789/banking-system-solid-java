@@ -11,8 +11,11 @@ Este proyecto busca ayudar a personas que están aprendiendo Java a colaborar en
 Antes de contribuir:
 
 ✅ Lee el README.md
+
 ✅ Revisa el ROADMAP.md
+
 ✅ Mantén el código simple y educativo
+
 ✅ Piensa en el aprendizaje colectivo
 
 ---
