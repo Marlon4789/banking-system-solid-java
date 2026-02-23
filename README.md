@@ -1,71 +1,79 @@
-# 🏦 Mini Bank System — Proyecto Colaborativo Java
+# 🏦 Mini Bank System
+### Sistema Bancario Educativo en Java
 
-## Bienvenido 👋
+Proyecto backend desarrollado en **Java** con el objetivo de aprender y practicar  
+**Programación Orientada a Objetos, Interfaces y buenas prácticas de arquitectura**  
+mediante la construcción progresiva de un sistema real.
 
-Este repositorio es un **proyecto educativo y colaborativo** creado para aprender desarrollo backend en Java mientras construimos un sistema paso a paso.
-
-⚠️ **Este NO es un sistema bancario real.**
-El objetivo principal es **aprender Programación Orientada a Objetos, Interfaces y buenas prácticas** trabajando en equipo.
+> **NOTA:** Este NO es un sistema bancario real.  
+> Es un proyecto educativo enfocado en aprendizaje y colaboración.
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🚀 Objetivo del Proyecto
 
-Construir un pequeño sistema bancario mientras aprendemos cómo se organizan proyectos reales en Java.
+Construir un sistema bancario paso a paso mientras aprendemos cómo se estructuran
+los proyectos backend en Java.
 
-**Contribuir:** 
-* 🗺️ [ROADMAP del Proyecto](ROADMAP.md)
-* 🤝 [Guía de Contribución](CONTRIBUTING.md)
+Durante el desarrollo aplicamos:
 
-Durante el desarrollo practicamos:
-
-✅ Programación Orientada a Objetos (POO)
-
-✅ Interfaces
-
-✅ Principios SOLID
-
-✅ Repository Pattern
-
-✅ Separación de responsabilidades
-
-✅ Código limpio
-
-✅ Trabajo colaborativo con GitHub
+✅ Programación Orientada a Objetos (POO)  
+✅ Interfaces  
+✅ Principios SOLID  
+✅ Repository Pattern  
+✅ Separación de responsabilidades  
+✅ Arquitectura por capas  
+✅ Código limpio  
+✅ Trabajo colaborativo con Git y GitHub
 
 ---
 
 ## 👨‍🎓 ¿Para quién es este proyecto?
 
-Este proyecto está pensado especialmente para:
+Este proyecto está diseñado para:
 
-* Personas que están aprendiendo Java
-* Estudiantes que comienzan con POO
-* Personas aprendiendo Interfaces
-* Desarrolladores junior
-* Estudiantes que quieren practicar GitHub
-* Personas que desean prepararse para Spring Boot
+- Estudiantes que están aprendiendo **Java**
+- Personas iniciando en **POO**
+- Personas aprendiendo **Interfaces**
+- Estudiantes que desean practicar GitHub
+- Personas preparándose para **Spring Boot**
 
-No necesitas experiencia avanzada 👍
-
----
-
-## 🧠 Funcionalidades actuales
-
-Actualmente el sistema permite:
-
-* Crear cuentas bancarias
-* Depositar dinero
-* Retirar dinero
-* Transferir dinero entre cuentas
-* Manejo de saldo
-* Uso de Interfaces
-* Implementación básica del Repository Pattern
-* Separación por capas
+No necesitas experiencia avanzada ✅
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Funcionalidades actuales
+
+El sistema actualmente permite:
+
+- Crear cuentas bancarias
+- Depositar dinero
+- Retirar dinero
+- Transferir dinero entre cuentas
+- Manejo de saldo
+- Separación por capas
+- Uso de Interfaces
+- Implementación básica del Repository Pattern
+
+---
+
+## 🏗️ Arquitectura del Proyecto
+
+El sistema sigue una arquitectura simple inspirada en **Clean Architecture**.
+
+### Capas del sistema
+
+| Capa | Responsabilidad |
+|------|----------------|
+| Domain | Reglas del negocio |
+| Service | Lógica de aplicación |
+| Repository | Acceso a datos |
+| Infrastructure | Implementaciones técnicas |
+
+---
+
+## 📂 Estructura del Proyecto
+
 
 ```
 src/
@@ -84,19 +92,9 @@ src/
     │
     └── Main.java
 ```
-
 ---
 
-## 🧩 Capas del sistema
-
-* **Domain** → reglas del negocio
-* **Service** → lógica del sistema
-* **Repository** → acceso a datos
-* **Infrastructure** → implementaciones técnicas
-
----
-
-## 🚀 Cómo ejecutar el proyecto
+## ⚙️ Cómo ejecutar el proyecto
 
 ### 1️⃣ Clonar repositorio
 
@@ -104,46 +102,51 @@ src/
 git clone https://github.com/Marlon4789/banking-system-solid-java.git
 cd banking-system-solid-java
 ```
-
----
-
-### 2️⃣ Compilar
-
-```bash
+2️⃣ Compilar proyecto
+```aiignore
 javac com/mybank/**/*.java
 ```
-
----
-
-### 3️⃣ Ejecutar
-
-```bash
+3️⃣ Ejecutar aplicación
+```aiignore
 java com.mybank.Main
 ```
 
 ---
 
-## 📌 Filosofía del Proyecto
+## 🤝 Cómo contribuir
 
-Este repositorio es un espacio seguro para:
+Si deseas participar en el proyecto, puedes hacerlo siguiendo estos pasos:
 
-✅ aprender
+1. Revisa el plan de desarrollo del proyecto:👉 [ROADMAP.md](ROADMAP.md)
 
-✅ experimentar
-
-✅ mejorar habilidades
-
-✅ colaborar con otros desarrolladores
+2. Lee la guía de contribución: 👉 [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
-## ⭐ Mensaje final
+### 🎯 Filosofía del Proyecto
 
-Si estás aprendiendo Java…
+Este repositorio existe para:
 
-Este proyecto es para ti.
+- Aprender construyendo software
 
-No importa tu nivel.
-Todos estamos aprendiendo juntos.
+- Entender arquitectura backend
+
+- Aplicar buena practicas de código limpio
+
+- Colaborar con otros desarrolladores
+
+- Prepararse para Spring Boot
+
+El objetivo principal no es solo el resultado final,
+sino el proceso de aprendizaje y mejora continua.
+
+### ⭐ Mensaje Final
+
+Si estás aprendiendo Java...
+
+Este proyecto es un espacio para practicar, experimentar y mejorar
+nuestras habilidades como desarrollador backend.
+
+No importa tu nivel actual.
 
 **Aprendemos construyendo software real.**

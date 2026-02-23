@@ -2,7 +2,7 @@
 
 Este proyecto crece poco a poco mientras aprendemos **Java, POO, Interfaces y algo básico de patrones de diseño** juntos.
 
-⚠️ No necesitas saber todo para participar.
+**NOTA:** No necesitas saber todo para participar.
 La idea es **aprender paso a paso**, sin presión.
 
 Este roadmap puede cambiar con nuevas ideas de la comunidad, si tienes algo en mente no dudes en dejarla saber 😊
@@ -88,8 +88,11 @@ Si las cosas pintan bien, se puede intentar:
 Este repositorio existe para:
 
 ✅ practicar
+
 ✅ equivocarse
+
 ✅ preguntar
+
 ✅ mejorar juntos
 
 No importa tu nivel.
